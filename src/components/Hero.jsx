@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 
 
 const HeroBanner = () => {
-  const heroImage = "../src/assets/images/banner.jpg"; 
+  const heroImage = "../assets/images/banner.jpg"; 
 
   return (
     <div className="relative w-full h-screen bg-gray-100">

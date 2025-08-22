@@ -5,31 +5,36 @@ import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
 
+import team1 from "../assets/images/team1.png";
+import team2 from "../assets/images/team2.png";
+import team3 from "../assets/images/team3.png";
+import team4 from "../assets/images/team4.png";
+
 const teamMembers = [
   {
     name: "JansiMerry",
     role: "Clinical Director / Psychologist",
-    image: "./src/assets/images/team1.png",
+    image: team1,
   },
   {
     name: "Rizza",
     role: "Psychologist",
-    image: "./src/assets/images/team2.png",
+    image: team2,
   },
   {
     name: "John Smith",
     role: "Clinical Director / Psychologist",
-    image: "./src/assets/images/team3.png",
+    image: team3,
   },
   {
     name: "Brady John",
     role: "Psychologist",
-    image: "./src/assets/images/team4.png",
+    image: team4,
   },
   {
     name: "Emily Rose",
     role: "Therapist",
-    image: "./src/assets/images/team1.png",
+    image: team1,
   },
 ];
 
